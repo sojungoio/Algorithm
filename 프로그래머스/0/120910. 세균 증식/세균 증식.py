@@ -6,7 +6,12 @@ def solution(n, t):
 
 """
 비트 연산자 
-der solution(n, t):
+def solution(n, t):
     answer = n << t
     return answer
+    
+제곱근 이용하기
+def solution(n, t):
+    answer = 2 ** t * n 
+    return = answer
 """
